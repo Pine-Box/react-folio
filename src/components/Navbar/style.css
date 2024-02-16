@@ -1,0 +1,5 @@
+/* navbar */
+
+.navbar-nav a.nav-link:hover {
+    font-weight: bolder;
+}
