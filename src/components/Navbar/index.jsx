@@ -6,8 +6,8 @@ import './style.css';
 function Navbar() {
 
     return (
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid">
+        <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+            <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     Portfolio
                 </Link>
@@ -49,7 +49,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-        </nav>
+            </nav>
     );
 }
 
