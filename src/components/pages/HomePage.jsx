@@ -7,7 +7,7 @@ import Hero from '../Hero';
 const resumeUrl = './public'
 const filename = 'cv.pdf'
 
-function Home() {
+
 
   const handleDownload = (event) => {
     fileDownload(resumeUrl, filename)
@@ -15,7 +15,7 @@ function Home() {
   };
 
 
-
+function Home(props){
 
   return (
     <div>
