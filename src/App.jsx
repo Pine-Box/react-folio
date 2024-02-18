@@ -1,18 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/pages/HomePage';
-import Projects from './components/pages/ProjectsPage';
-import Contact from './components/pages/ContactPage';
+import Home from './components/Pages/HomePage';
+import Projects from './components/Pages/ProjectsPage';
+import Contact from './components/Pages/ContactPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import SocialMedia from './components/SocialMedia';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Header>
+            <Navbar />
+        </Header>       
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home />} />
