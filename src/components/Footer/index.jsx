@@ -4,10 +4,16 @@ import SocialMedia from "../SocialMedia";
 
 function Footer() {
   return (
-    <footer className="d-flex flexrow flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div className="col-md-8 d-flex align-items-center">
-        <span className="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    <footer className="container">
+    <div className="col-12">
+      <div className="row">
         <SocialMedia />
+      </div>
+      <div className="row ">
+        <div className="container d-flex flex-row justify-content-around align-items-center mb-3">
+            <span className="mt-1 text-muted">© 2024 Urban Graphic Studio Ltd</span>
+        </div>
+      </div>
       </div>
     </footer>
   );

@@ -11,22 +11,21 @@ import {
 
 export default function SocialMedia() {
   return (
-    <div className="container mb-4">
-      <h3>Social Media</h3>
+    <div className="container d-flex flex-row justify-content-around align-items-center mt-3">
       <a href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+        className="youtube social" target="_blank">
+        <FontAwesomeIcon icon={faYoutube} size="3x" />
       </a>
       <a href="https://www.facebook.com/learnbuildteach/"
-        className="facebook social">
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
+        className="facebook social" target="_blank">
+        <FontAwesomeIcon icon={faFacebook} size="3x" />
       </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+      <a href="https://www.twitter.com/jamesqquick" className="twitter social" target="_blank">
+        <FontAwesomeIcon icon={faTwitter} size="3x" />
       </a>
       <a href="https://www.instagram.com/learnbuildteach"
-        className="instagram social">
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
+        className="instagram social" target="_blank">
+        <FontAwesomeIcon icon={faInstagram} size="3x" />
       </a>
     </div>
   );

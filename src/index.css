@@ -58,6 +58,11 @@ body {
 /* rtl:end:ignore */
 
 
+.homepage {
+   background-color: aliceblue;
+
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -68,6 +73,3 @@ body {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
-
-
