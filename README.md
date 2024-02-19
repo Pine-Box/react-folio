@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+# React-Portfolio
 
 ## Background
 
@@ -18,15 +18,6 @@ so that I can review them with clients on suitable candidates that meet their ne
 No wireframe was provided but an example of the landing page design was provided
 
 
-### Design
-
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
 
 ### Base Requirements
 
@@ -54,4 +45,35 @@ Follow the link to view the boostrap-portfolio landing page:
 
 [https://pine-box.github.io/react-folio/](https://pine-box.github.io/react-folio/)
 
-![react-folio Landing Page](https://github.com/Pine-Box/react-folio/blob/main/src/assets/img/react-folio.png)
+# Home Page
+
+On the hompage clicking on the download cv will download a fake cv.
+
+Clicking on Latest project will open the website of the latest project.
+
+![react-folio Home Page](./src/assets/homepage.png)
+
+# Project Page
+
+On the project page you see the gallery of projects that I have done. Clicking on goto website will take open a new tab with that project landing page open.
+
+Clicking on goto github will open a new tab with the github readme open.
+
+![react-folio Project Page](./src/assets/projectpage.png)
+
+#Contact Page
+
+![react-folio Home Page](./src/assets/ContactPage.png)
+
+
+
+Contact Page Details
+
+Validation is on empty message or email address and also if the email address pattern is invalid.
+
+On clicking send, your email client app will open and with the entered email address and message captured in the subject and body of the email.
+
+![react-folio Home Page](./src/assets/contactemail.png)
+
+![react-folio Home Page](./src/assets/clientemail.png)
+
