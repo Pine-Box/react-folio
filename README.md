@@ -61,9 +61,9 @@ Clicking on goto github will open a new tab with the github readme open.
 
 ![react-folio Project Page](./src/assets/projectpage.png)
 
-#Contact Page
+# Contact Page
 
-![react-folio Home Page](./src/assets/ContactPage.png)
+![react-folio contact Page](./src/assets/ContactPage.png)
 
 
 
@@ -73,7 +73,7 @@ Validation is on empty message or email address and also if the email address pa
 
 On clicking send, your email client app will open and with the entered email address and message captured in the subject and body of the email.
 
-![react-folio Home Page](./src/assets/contactemail.png)
+![react-folio completed contact Page](./src/assets/contactemail.png)
 
-![react-folio Home Page](./src/assets/clientemail.png)
+![react-folio Client email Page](./src/assets/clientemail.png)
 
