@@ -28,6 +28,7 @@ const ButtonMailto = (props) => {
 
     return (
         <Link
+            className="w-100 btn btn-primary btn-lg"
             to='#'
             onClick={handleFormSubmit}           
         >

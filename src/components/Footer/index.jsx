@@ -4,8 +4,10 @@ import SocialMedia from "../SocialMedia";
 
 function Footer() {
   return (
+    <div>
+    <hr />
     <footer className="container">
-    <div className="col-12">
+    <div className="col-12" height="10%">
       <div className="row">
         <SocialMedia />
       </div>
@@ -16,6 +18,7 @@ function Footer() {
       </div>
       </div>
     </footer>
+    </div>
   );
 }
 export default Footer;

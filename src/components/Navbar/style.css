@@ -1,5 +1,9 @@
 /* navbar */
 
+.navbar-brand{
+   margin-left: 20px;
+}
+
 .navbar-nav a.nav-link:hover {
     font-weight: bolder;
 }

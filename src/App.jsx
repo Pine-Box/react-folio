@@ -11,11 +11,11 @@ import Header from './components/Header';
 
 function App() {
   return (
+
     <Router>
       <div>
-        <Header>
-            <Navbar />
-        </Header>       
+        <Navbar />   
+        <Header/> 
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home />} />

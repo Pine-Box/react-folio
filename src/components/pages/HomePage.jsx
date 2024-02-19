@@ -5,7 +5,7 @@ import Hero from '../Hero';
 
 
 const resumeUrl = './public'
-const filename = 'cv.pdf'
+const filename = 'fake-cv.pdf'
 
 
 
@@ -28,9 +28,9 @@ function Home(props){
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to my Portfolio page.</h1>
               <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, hic animi expedita, laudantium iure commodi nisi tempora molestias assumenda asperiores sed iusto nihil culpa, minima quaerat omnis quo. Repellendus, suscipit.</p>
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <div className="d-grid gap-2 d-md-flex justify-content-md-center">
                 <button type="button" className="btn btn-primary btn-lg px-4 me-md-2" onClick={handleDownload} >Download CV</button>
-                <a type="button" className="btn btn-outline-secondary btn-lg px-4" href="https://pine-box.github.io/Horiseon/starter" target="_blank">Latest project</a>
+                <a type="button" className="btn btn-outline-secondary btn-lg px-4" href="https://pine-box.github.io/book-search/" target="_blank">Latest project</a>
               </div>
             </div>
           </div>

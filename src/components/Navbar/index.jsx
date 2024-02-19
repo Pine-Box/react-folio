@@ -7,10 +7,10 @@ function Navbar() {
 
     return (
         <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="/">
+                           <Link className="navbar-brand" to="/">
                     Portfolio
-                </Link>
+                </Link> 
+            <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
