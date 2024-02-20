@@ -1,18 +1,13 @@
 import React from 'react';
-import fileDownload from 'js-file-download';
 import Hero from '../Hero';
 
 
 
-const resumeUrl = './public'
-const filename = 'fake-cv.pdf'
+const resumeUrl = './assets';
+const fileName = 'fake-cv.pdf';
 
 
 
-  const handleDownload = (event) => {
-    fileDownload(resumeUrl, filename)
-      .catch((err) => console.log(err));
-  };
 
 
 function Home(props){
@@ -29,7 +24,7 @@ function Home(props){
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to my Portfolio page.</h1>
               <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, hic animi expedita, laudantium iure commodi nisi tempora molestias assumenda asperiores sed iusto nihil culpa, minima quaerat omnis quo. Repellendus, suscipit.</p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-                <button type="button" className="btn btn-primary btn-lg px-4 me-md-2" onClick={handleDownload} >Download CV</button>
+                <a href='./src/assets/fake-cv.pdf' download type="button" className="btn btn-primary btn-lg px-4 me-md-2" target="_blank">Download resume </a>
                 <a type="button" className="btn btn-outline-secondary btn-lg px-4" href="https://pine-box.github.io/book-search/" target="_blank">Latest project</a>
               </div>
             </div>
